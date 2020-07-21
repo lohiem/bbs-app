@@ -8,6 +8,20 @@
 	<script src="script/gnb.js"></script>
 	<script src="script/slider.js"></script>
 	<script src="script/tabs.js"></script>
+	<style>
+	  .popup {position:relative;position:absolute;top:100px;left:100px;
+	  width:420px;height:670px;background-color: #eee;
+	  border:5px solid #369;box-sizing:border-box;
+	  border-radius:7px;
+	  display:none;z-index:9999}
+	  .popup img{width:100%;height: 94%;vertical-align:top}
+	  .popup .chk{position:absolute;left:10px;bottom:10px;
+	  }
+      .popup label{position:absolute;left:30px;bottom:10px;
+	  font-size:14px}
+	  .popup .close {position:absolute;right:10px;bottom:5px;
+	  height:26px;width:80px}	  
+	</style>
 </head>
 <body>
 	<div id="wrap">
@@ -261,6 +275,10 @@
 				</ul>
 			</div><!-- address end -->
 		</div><!-- footer end -->
+		<div class="popup">
+		  <img src="images/bam.jpg" alt="" />
+		  <input type="checkbox" id="chk" class="chk" /><label for="chk">오늘 하루동안 이 창을 열지 않음.</label><button class="close">close</button>
+		</div><!-- popup -->
 	</div><!-- wrap end -->
 	<script>
 		var now_img,next_img;
@@ -281,6 +299,13 @@
 			timer = setInterval('fade_slider()',3000);
 		});
 
-		</script>
+		//이벤트펍업
+		$(window).on('load',function(){
+		  $('.popup').show();
+		});
+		$('.close').click(function(){
+		  $('.popup').hide();
+		});	
+	</script>
 </body>
 </html>

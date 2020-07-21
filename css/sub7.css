@@ -1,0 +1,51 @@
+/*visual7*/
+
+#sub7_visual {width:100%;margin-top:130px}
+#sub7_visual img{width:100%;height:150px}
+
+/*subWrap*/
+#conWrap {width:1200px;height:1100px;margin:auto}
+#conWrap #sub7 {width:1200px; padding-top:50px ;border-bottom: 1px solid #aaa;}
+#conWrap #sub7 h2 { padding-bottom:20px; color:#555}
+
+#conWrap #nav {width:200px;margin-top:100px; float:left; background-color:#fff;}
+#conWrap #nav ul.navi {width:200px; text-indent: 10px; margin-top:1000px;}
+#conWrap ul.navi li.group {margin-bottom: 3px}
+#conWrap #nav ul.navi,
+#conWrap #nav ul.navi ul.sub {list-style: none; margin: 0; padding: 0;}
+
+/* sub li */
+#conWrap ul.navi li.group div.title {height: 35px; margin-bottom: 2px; line-height: 30px; color:#fff; 
+background:#369; cursor:pointer}
+#conWrap ul.navi li.group ul.sub li {height:35px; margin-bottom: 2px; line-height: 30px; background:#eee}
+#conWrap ul.navi li.group ul.sub li a {text-decoration: none; display: block; width: 100%; height: 100%; 
+color:#000}
+#conWrap ul.navi li.group ul.sub li:hover {background:#ccc}
+
+/*form*/
+
+#conWrap #con1 {width:1000px;height:900px}
+#conWrap #con1 .box8 {width:1200px;height:800px}
+
+#conWrap #con1 .box1 { width:1000px;height:50px }
+#conWrap #con1 .box1 h3 {margin-left:300px;margin-top:100px;
+color:#369;}
+#conWrap #con1 .box1 p {margin-top:5px;margin-left:300px;color:#555}
+
+#conWrap #con1 .box2 {margin-top:80px;margin-left:300px;width:850px;
+height:120px;background:#fcc}
+#conWrap #con1 .box2 p {padding:20px 10px}
+
+#conWrap #con1 .box3 {margin-top:80px;width:1000px;height:150px}
+#conWrap #con1 .box3 p{font-weight:bold;margin-left:300px;margin-bottom:15px}
+#conWrap #con1 .box3 textarea { margin-left:300px;width:850px;height:150px}
+
+#conWrap #con1 .box4 {margin-top:60px;margin-left:300px;width:1000px;
+height:30px}
+#conWrap #con1 .box4 input[type=checkbox] {width:15px;height:15px}
+#conWrap #con1 .box4 label {}
+
+#conWrap #con1 .box5 {width:1200px;height:30px;margin-top:140px;
+margin-left:500px}
+#conWrap #con1 .box5 input {width:200px;height:50px;border-radius:50px;
+background-color: #369;color:#fff;font-size:16px}
